@@ -1,11 +1,10 @@
 export default {
 async fetch(request, env) {
 const cars = [
-"app1.example.com",
-"app2.example.com",
-"app3.example.com",
-"app4.example.com",
-"app5.example.com"
+"dalazhi-vm.herokuapp.com",
+"dalazhi-vm01.herokuapp.com",
+"dalazhi-vm02.herokuapp.com",
+"dalazhi-vm03.herokuapp.com"
 ];
 let host = cars[Math.floor(Math.random() * cars.length)]; //随机选择VPS
 //let host = cars[new Date().getDate() % cars.length]; //每天自动更换VPS
