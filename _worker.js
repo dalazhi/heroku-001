@@ -10,7 +10,7 @@ const cars = [
 export default {
     async fetch(request, env) {
       const SingleDay = 'dalazhi-vm01.herokuapp.com'
-      const DoubleDay = 'dalazhi-vm02.herokuapp.com'
+      const DoubleDay = 'dalazhi-vm01.herokuapp.com'
       let host = ''
       let nd = new Date();
       if (nd.getDate()%2) {
