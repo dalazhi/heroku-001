@@ -4,7 +4,7 @@ const cars = [
 //"huku01.herokuapp.com",
 //"huku02.herokuapp.com",
 //"huku03.herokuapp.com",
-  "huku05.herokuapp.com"
+"huku05.herokuapp.com"
 ];
 let host = cars[Math.floor(Math.random() * cars.length)]; //随机选择VPS
 //let host = cars[new Date().getDate() % cars.length]; //每天自动更换VPS
