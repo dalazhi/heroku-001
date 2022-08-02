@@ -1,7 +1,7 @@
 export default {
 async fetch(request, env) {
 const cars = [
-//"huku01.herokuapp.com",
+"huku01.herokuapp.com",
 //"huku02.herokuapp.com",
 //"huku03.herokuapp.com",
 "huku05.herokuapp.com",
